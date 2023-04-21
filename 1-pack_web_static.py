@@ -6,6 +6,7 @@
 from fabric.api import local, env
 from datetime import datetime
 
+
 def do_pack():
     """
     Targging project directory into a packages as .tgz
@@ -19,4 +20,3 @@ def do_pack():
         return name
     else:
         return None
-
